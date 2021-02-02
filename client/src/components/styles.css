@@ -1,0 +1,19 @@
+/* Login */
+
+.LoginContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.LoginForm {
+  width: 500px;
+}
+
+@media screen and (max-width: 500px) {
+  .LoginForm {
+    width: 90%;
+  }
+}
